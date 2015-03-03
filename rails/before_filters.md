@@ -40,7 +40,7 @@ Avoid the following
 
 ```ruby
 class NotSoGoodController < ApplicationController
-  before_filter :find_post, :only => [:show, :edit, :create]
+  before_filter :find_post, :only => [:show, :edit]
 
   def show
   end
@@ -49,6 +49,7 @@ class NotSoGoodController < ApplicationController
   end
 
   def create
+    # Creat-ey stuff. Is there an @post here? Better check filters..
   end
 
   private
@@ -75,7 +76,7 @@ class BetterController < ApplicationController
   end
 
   def create
-    @post = find_post
+    # Creat-ey stuff.
   end
 
   private
