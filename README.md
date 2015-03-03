@@ -18,4 +18,4 @@ Explorers please document why a certain practice was deemed useful or not.
 Table of Contents
 -----------------
 1. Rails Practices
-    - Enter first practice here.
+    - [Before Filters](rails/before_filters.md)
