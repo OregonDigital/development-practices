@@ -17,5 +17,7 @@ Explorers please document why a certain practice was deemed useful or not.
 
 Table of Contents
 -----------------
-1. Rails Practices
+1. Ruby Practices
+    - [Postfix Conditionals](ruby/postfix_conditionals.md)
+2. Rails Practices
     - [Before Filters](rails/before_filters.md)
